@@ -1,7 +1,5 @@
 #!/bin/sh
 
-sudo yum -y update
-
 sudo amazon-linux-extras install docker
 
 sudo service docker start
@@ -37,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-sudo yum -y updatemy-zsh/custom}/plugins/zsh-autosuggestions
 
 #echo "plugins=(git dnf zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 
