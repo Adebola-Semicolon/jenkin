@@ -29,8 +29,6 @@ zsh --version
 
 sudo yum install -y util-linux-user
 
-sudo yum install git -y
-
 
 # Or use "sudo chsh -s $(which zsh) $(whoami)" to be sure
 chsh -s "$(which zsh)"
