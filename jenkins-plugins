@@ -6,4 +6,5 @@ docker-plugin
 docker-build-step
 dockerhub-notification
 oauth-credentials
-view raw
+credentials:2.6
+credentials-binding:1.27
